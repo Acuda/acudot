@@ -37,6 +37,8 @@ def get_files_in_directory(path, stripdir='', data=list()):
 
 def create_symlinks(data, force=False, verbose=False):
     for src, dst in data:
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+
         try:
             os.symlink(src, dst)
         except OSError as ex:
