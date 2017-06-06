@@ -1,0 +1,114 @@
+!#*utf8: 1
+
+Xft.dpi:                 80
+Xft.antialias:           true
+Xft.hinting:             full
+Xft.hintstyle:           hintslight
+Xft.rgba:                rgb
+
+urxvt.termName:          rxvt-unicode
+urxvt.scrollBar:         false
+urxvt.imLocale:          de_DE.UTF-8
+urxvt.loginShell:        true
+urxvt.saveLines:         1024
+urxvt.geometry:          100x30
+urxvt.boldMode:          false
+urxvt.inheritPixmap:     false
+urxvt.xftAntialias:      false
+urxvt.jumpScroll:        true
+urxvt.tintColor:         dark grey
+urxvt.internalBorder:    0
+urxvt.cursorBlink:       false
+urxvt.cursorColor:       #ff9900
+urxvt.cursorColor2:      #000000
+
+urxvt.perl-ext:           default,matcher
+urxvt.urlLauncher:        sensible-browser
+urxvt.keysym.C-Delete:    perl:matcher
+urxvt.underlineURLs:      true
+
+!#screen scrollbuffer wird an urxvt uebergeben...
+URxvt.secondaryScroll: true
+
+urxvt.foreground:        light grey
+urxvt.background:	 #111111
+urxvt.colorBD:           #ffffff
+urxvt.colorIT:           #bbbbbb
+urxvt.colorUL:           #999999
+urxvt.underlineColor:    #999999
+urxvt.borderless:        true
+
+URxvt*urgentOnBell: true
+
+Urxvt*shading: 10
+URxvt*fading: 10
+URxvt*transparent: True
+
+!*background: #000000
+!*foreground: light grey
+
+!black
+*color0:     #262729
+*color8:     #554444
+!#*color0:     #000000
+!#*color8:     #000000
+
+!red
+*color1: #E41B17
+*color9: #FF3300
+
+!green
+*color2:    #A6E22E
+*color10:   #BEED5F
+
+!yellow
+*color3:    #FD971F
+*color11:   #E6DB74
+
+!blue
+*color4: #204a87
+*color12: #3465a4
+
+!magenta
+*color5: #ce5c00
+*color13: #f57900
+
+!cyan
+*color6: #89b6e2
+*color14: #46a4ff
+
+!white
+*color7:        #cccccc
+*color15:       #ffffff
+
+
+!#xmessage*form.okay.shapeStyle:          rectangle
+!#xmessage*form.okay.background:          IndianRed
+!#xmessage*form.okay.foreground:          rgb:e/b/b
+!#xmessage*message*background:            ivory3
+!xmessage*background:                    gray85
+!#xmessage*foreground:                    gray15
+!#xmessage*Scrollbar.width:               1
+!#xmessage*Scrollbar.borderWidth:         0
+!#xmessage*Text.?.cursorColor:            rgb:d/5/5
+!#xmessage*Text.borderColor:              gray65
+!#xmessage*Text*background:               gray95
+!#xmessage*Command.highlightThickness:    1
+!#xmessage*Command.internalWidth:         5
+!#xmessage*Command.internalHeight:        3
+!#xmessage*Command.borderColor:           gray40
+!#xmessage*Command.shapeStyle:            Rectangle
+!#xmessage*Command.background:            gray80
+!#xmessage*font:                          -*-clean-*-*-*-*-*-*-*-*-*-*-iso8859-2
+
+! -- XPDF -- !
+!#xpdf*enableFreetype:      yes
+!#xpdf*antialias:           yes
+!#xpdf*foreground:          white
+!#xpdf*background:          black
+!#xpdf*urlCommand:          /usr/bin/firefox %s
+!#xpdf*viKeys:              on
+
+!xournal*background: black
+
+
