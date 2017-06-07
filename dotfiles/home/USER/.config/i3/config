@@ -157,7 +157,7 @@ bindsym $mod+q mode "appstart"
 # finds out, if available)
 
 bar {
-	tray_output DVI-I-1
+	tray_output LVDS1
         status_command i3status
 }
 
@@ -167,9 +167,9 @@ for_window [class="^Thunderbird$"] move workspace 10
 for_window [title="I3F$"] floating enable 
 for_window [title="I3T$"] floating disable 
 
-workspace 1 output DVI-I-1
-workspace 4 output HDMI1
-workspace 10 output HDMI1
+workspace 1 output LVDS1
+#workspace 4 output HDMI1
+#workspace 10 output HDMI1
 
 exec --no-startup-id pnmixer
 exec --no-startup-id nm-applet
